@@ -1,0 +1,34 @@
+---
+title: "伊藤 晴人 (Haruto Ito)"
+about:
+  template: trestles
+  image: ../images/profile.JPEG
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ito-haru
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/haruto-ito/
+---
+
+::: {.lang-switch}
+→ [English](../index.html)
+:::
+
+東京大学 大学院工学系研究科 社会基盤学専攻 修士課程。
+動学的数量空間モデルの研究とJAXベースの構造推定ライブラリ[**Econox**](https://github.com/ito-haru/econox)の開発を行っています。
+
+## 実績
+- **田邉賞**・**工学部長賞（研究）**（東京大学、2026年3月） — 卒業論文に対して授与
+
+
+## 主な経歴
+- 2026年4月 - 現在: 東京大学 大学院工学系研究科 社会基盤学専攻
+- 2025年1月 - 現在: HENNGE株式会社 学生インターン（Product Management Section）
+- 2024年4月 - 2026年3月: 東京大学 工学部 社会基盤学科
+- 2023年7月 - 2023年8月: [100Program](https://100program.jp/)4期生
+- 2022年4月 - 2024年3月: 東京大学 教養学部 理科一類
+- 2019年7月 - 2021年3月: [ROOTプログラム](https://gsc-root.org/)3期生
+- 2019年4月 - 2022年3月: 公立大学法人兵庫県立大学附属高等学校
+- 2016年4月 - 2019年3月: 公立大学法人兵庫県立大学附属中学校

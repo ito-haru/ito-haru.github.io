@@ -1,0 +1,13 @@
+---
+title: "Projects"
+---
+
+::: {.lang-switch}
+→ [日本語版](ja/projects.html)
+:::
+
+## Econox
+A JAX-based structural estimation library.
+
+## Research
+Developing Dynamic Quantitative Spatial models.

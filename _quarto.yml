@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!ja/"
+
+website:
+  title: "Haruto Ito"
+  navbar:
+    left:
+      - text: "Projects"
+        href: projects.qmd
+    right:
+      - icon: github
+        href: https://github.com/ito-haru
+      - icon: linkedin
+        href: https://www.linkedin.com/in/haruto-ito/
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

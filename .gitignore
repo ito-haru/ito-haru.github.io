@@ -1,0 +1,9 @@
+/.quarto/
+/docs/
+/.venv/
+__pycache__/
+.DS_Store
+/site_libs/
+/blog-listing.json
+
+**/*.quarto_ipynb

@@ -1,0 +1,17 @@
+.lang-switch {
+  text-align: right;
+  font-size: 0.9em;
+  margin: 0 0 1.5em 0;
+  color: #6c757d;
+}
+
+.lang-switch a {
+  text-decoration: none;
+  color: #2c3e50;
+  border-bottom: 1px dotted #6c757d;
+}
+
+.lang-switch a:hover {
+  color: #18bc9c;
+  border-bottom-color: #18bc9c;
+}
