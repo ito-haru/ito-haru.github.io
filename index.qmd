@@ -16,16 +16,16 @@ about:
 → [日本語版](ja/index.html)
 :::
 
-Master's student in the Department of Civil Engineering, Graduate School of Engineering, the University of Tokyo.
+Master's student in the Department of Civil Engineering, Graduate School of Engineering, the University of Tokyo, affiliated with the [Lab for Innovative Infrastructure Systems (LIIS, Fukuda Laboratory)](https://liis.t.u-tokyo.ac.jp/en/).
 Researching Dynamic Models in Quantitative Spatial Economics (QSE) & Developer of [Econox](https://github.com/ito-haru/econox).
 
 ## Achievements
-- **Tanabe Award** & **Dean's Award for Research**, The University of Tokyo (March 2026) — for undergraduate thesis
+- **[Tanabe Award](https://utcivil.org/awards.html)** & **[Dean's Award for Research](https://www.t.u-tokyo.ac.jp/topics/tp2026-04-06-001)**, The University of Tokyo (March 2026) — for undergraduate thesis
 
 ## Experience and Education
 - Apr 2026 - Present: The University of Tokyo, Graduate School of Engineering, Department of Civil Engineering
-- Jan 2025 - Present: HENNGE K.K. Student Intern (Product Management Section)
-- Apr 2024 - Mar 2026: The University of Tokyo, Faculty of Engineering, Department of Civil Engineering
+- Jan 2025 - Present: [HENNGE K.K.](https://hennge.com/global/) Student Intern (Product Management Section)
+- Apr 2024 - Mar 2026: [The University of Tokyo, Faculty of Engineering, Department of Civil Engineering](https://www.civil.t.u-tokyo.ac.jp/en/)
 - Apr 2022 - Mar 2024: The University of Tokyo, College of Arts and Sciences, Division of Science I
 - Apr 2019 - Mar 2022: The High School of University of Hyogo
 - Apr 2016 - Mar 2019: The Junior High School of University of Hyogo

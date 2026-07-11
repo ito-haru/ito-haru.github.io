@@ -16,19 +16,19 @@ about:
 → [English](../index.html)
 :::
 
-東京大学 大学院工学系研究科 社会基盤学専攻 修士課程。
+東京大学 大学院工学系研究科 社会基盤学専攻 修士課程。[次世代インフラシステム研究室（福田研究室）](https://liis.t.u-tokyo.ac.jp/)所属。
 動学的数量空間モデルの研究とJAXベースの構造推定ライブラリ[**Econox**](https://github.com/ito-haru/econox)の開発を行っています。
 
 ## 実績
-- **田邉賞**・**工学部長賞（研究）**（東京大学、2026年3月） — 卒業論文に対して授与
+- **[田邉賞](https://utcivil.org/awards.html)**・**[工学部長賞（研究）](https://www.t.u-tokyo.ac.jp/topics/tp2026-04-06-001)**（東京大学、2026年3月） — 卒業論文に対して授与
 
 
 ## 主な経歴
 - 2026年4月 - 現在: 東京大学 大学院工学系研究科 社会基盤学専攻
-- 2025年1月 - 現在: HENNGE株式会社 学生インターン（Product Management Section）
-- 2024年4月 - 2026年3月: 東京大学 工学部 社会基盤学科
+- 2025年1月 - 現在: [HENNGE株式会社](https://hennge.com/jp/) 学生インターン（Product Management Section）
+- 2024年4月 - 2026年3月: [東京大学 工学部 社会基盤学科](https://www.civil.t.u-tokyo.ac.jp/)
 - 2023年7月 - 2023年8月: [100Program](https://100program.jp/)4期生
 - 2022年4月 - 2024年3月: 東京大学 教養学部 理科一類
 - 2019年7月 - 2021年3月: [ROOTプログラム](https://gsc-root.org/)3期生
-- 2019年4月 - 2022年3月: 公立大学法人兵庫県立大学附属高等学校
-- 2016年4月 - 2019年3月: 公立大学法人兵庫県立大学附属中学校
+- 2019年4月 - 2022年3月: [公立大学法人兵庫県立大学附属高等学校](https://dmzcms.hyogo-c.ed.jp/kendai-hs/NC3/%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%AB%8B%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1)
+- 2016年4月 - 2019年3月: [公立大学法人兵庫県立大学附属中学校](https://dmzcms.hyogo-c.ed.jp/kendai-hs/NC3/%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%AB%8B%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E6%A0%A1)
