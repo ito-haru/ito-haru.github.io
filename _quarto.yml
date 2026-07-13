@@ -22,3 +22,5 @@ format:
     theme: flatly
     css: styles.css
     toc: true
+    include-in-header:
+      - google-site-verification.html
