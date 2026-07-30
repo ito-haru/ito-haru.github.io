@@ -7,6 +7,12 @@ project:
 
 website:
   title: "Haruto Ito"
+  site-url: "https://ito-haru.github.io"
+  description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering, The University of Tokyo. Winner of the Dean's Award for Research for work on benefit evaluation of the Linear Chuo Shinkansen using a dynamic quantitative spatial model."
+  image: images/profile.JPEG
+  open-graph:
+    locale: en_US
+  twitter-card: true
   navbar:
     left:
       - text: "Projects"
@@ -24,3 +30,4 @@ format:
     toc: true
     include-in-header:
       - google-site-verification.html
+      - person-ld.html

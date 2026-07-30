@@ -1,5 +1,11 @@
 ---
 title: "Projects"
+description: "伊藤晴人（Haruto Ito）のプロジェクト: 構造推定ライブラリEconox、動学的数量空間モデルの研究。"
+include-in-header:
+  - text: |
+      <link rel="alternate" hreflang="en" href="https://ito-haru.github.io/projects.html" />
+      <link rel="alternate" hreflang="ja" href="https://ito-haru.github.io/ja/projects.html" />
+      <link rel="alternate" hreflang="x-default" href="https://ito-haru.github.io/projects.html" />
 ---
 
 ::: {.lang-switch}

@@ -2,8 +2,16 @@ project:
   type: website
   output-dir: ../docs/ja
 
+lang: ja
+
 website:
   title: "伊藤 晴人"
+  site-url: "https://ito-haru.github.io/ja"
+  description: "伊藤晴人（Haruto Ito）— 東京大学大学院工学系研究科社会基盤学専攻 修士課程。動学的数量空間モデルを用いたリニア中央新幹線の便益評価に関する研究で工学部長賞を受賞。"
+  image: ../images/profile.JPEG
+  open-graph:
+    locale: ja_JP
+  twitter-card: true
   navbar:
     left:
       - text: "Projects"
@@ -21,3 +29,4 @@ format:
     toc: true
     include-in-header:
       - ../google-site-verification.html
+      - person-ld.html
