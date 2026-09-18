@@ -1,0 +1,21 @@
+---
+title: "研究"
+lang: ja
+description: "伊藤晴人（Haruto Ito）の研究について：数量空間経済学・交通"
+hide-description: true
+include-in-header:
+  - person-ld.html
+  - text: |
+      <link rel="alternate" hreflang="en" href="https://ito-haru.github.io/research.html" />
+      <link rel="alternate" hreflang="ja" href="https://ito-haru.github.io/ja/research.html" />
+      <link rel="alternate" hreflang="x-default" href="https://ito-haru.github.io/research.html" />
+---
+
+::: {.lang-switch}
+→ [English](../research.html)
+:::
+
+## 概要
+数量空間経済学（Quantitative Spatial Economics, QSE）に基づく，動学的な人口動態モデル（動学的数量空間モデル）により，交通政策を分析する手法を開発しています．
+卒業研究においては，まず基礎的な枠組みとして，Caliendo et al. (2019)のモデルをベースに拡張したモデルを構築し，35年間の都道府県単位のデータをもとに構造推定を実施．
+構築したモデルを用いて，リニア中央新幹線を対象に反実仮想シミュレーションを実施して，時間軸・地域に分解した便益および人口分布を評価した．

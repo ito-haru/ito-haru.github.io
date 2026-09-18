@@ -4,4 +4,7 @@ listing:
   contents: posts
   sort: "date desc"
   type: default
+  fields: [date, title, description, categories]
+  categories: true
+  feed: true
 ---

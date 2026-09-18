@@ -1,0 +1,19 @@
+---
+title: "Projects"
+description: "Projects by Haruto Ito (伊藤晴人): Econox, a JAX-based structural estimation library, and research on Dynamic Quantitative Spatial models."
+hide-description: true
+include-in-header:
+  - person-ld.html
+  - text: |
+      <link rel="alternate" hreflang="en" href="https://ito-haru.github.io/research.html" />
+      <link rel="alternate" hreflang="ja" href="https://ito-haru.github.io/ja/research.html" />
+      <link rel="alternate" hreflang="x-default" href="https://ito-haru.github.io/research.html" />
+---
+
+::: {.lang-switch}
+→ [日本語版](ja/research.html)
+:::
+
+I develop methods to analyze transport policy using dynamic quantitative spatial models — population dynamics models grounded in quantitative spatial economics (QSE).
+
+In my graduation research, I built a framework extending the model of Caliendo et al. (2019) and estimated it structurally using 35 years of prefecture-level panel data. Using this model, I ran counterfactual simulations for the Chuo Shinkansen, a maglev line under construction whose top speed is 500km/h and which will connect Japan's three biggest cities, evaluating its benefits and population effects decomposed by time period and region.

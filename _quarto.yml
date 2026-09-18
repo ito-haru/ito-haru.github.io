@@ -14,8 +14,10 @@ website:
   twitter-card: true
   navbar:
     left:
-      - text: "Projects"
-        href: projects.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Blog"
+        href: blog.qmd
     right:
       - icon: github
         href: https://github.com/ito-haru
