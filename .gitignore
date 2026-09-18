@@ -7,3 +7,5 @@ __pycache__/
 /blog-listing.json
 
 **/*.quarto_ipynb
+
+/.quarto/
