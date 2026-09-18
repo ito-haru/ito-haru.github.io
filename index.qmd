@@ -13,6 +13,7 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/haruto-ito/
 include-in-header:
+  - person-ld.html
   - text: |
       <link rel="alternate" hreflang="en" href="https://ito-haru.github.io/" />
       <link rel="alternate" hreflang="ja" href="https://ito-haru.github.io/ja/" />

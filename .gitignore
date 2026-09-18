@@ -1,4 +1,4 @@
-/.quarto/
+.quarto/
 /docs/
 /.venv/
 __pycache__/

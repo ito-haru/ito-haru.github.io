@@ -5,4 +5,4 @@
 ./build.sh
 ```
 
-英語・日本語の両サイトを `quarto render` でビルドして `docs/index.html` を開く。
+英語・日本語ページを含む単一のQuartoプロジェクトを `quarto render` でビルドして `docs/index.html` を開く。

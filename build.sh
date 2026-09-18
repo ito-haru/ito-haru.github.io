@@ -6,6 +6,5 @@ QUARTO=quarto
 command -v quarto >/dev/null 2>&1 || QUARTO=/Applications/quarto/bin/quarto
 
 "$QUARTO" render
-"$QUARTO" render ja
 
 open docs/index.html

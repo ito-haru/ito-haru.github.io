@@ -1,5 +1,6 @@
 ---
 title: "伊藤 晴人 (Haruto Ito)"
+lang: ja
 description: "伊藤晴人（Haruto Ito）— 東京大学大学院工学系研究科社会基盤学専攻 修士課程。動学的数量空間モデルを用いたリニア中央新幹線の便益評価に関する研究で工学部長賞を受賞。"
 hide-description: true
 about:
@@ -13,6 +14,7 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/haruto-ito/
 include-in-header:
+  - person-ld.html
   - text: |
       <link rel="alternate" hreflang="en" href="https://ito-haru.github.io/" />
       <link rel="alternate" hreflang="ja" href="https://ito-haru.github.io/ja/" />

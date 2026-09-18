@@ -22,11 +22,8 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render English site
+      - name: Render site
         run: quarto render
-
-      - name: Render Japanese site
-        run: quarto render ja
 
       - uses: actions/upload-pages-artifact@v3
         with:

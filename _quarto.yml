@@ -1,9 +1,8 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - "*.qmd"
-    - "!ja/"
+
+lang: en
 
 website:
   title: "Haruto Ito"
@@ -30,4 +29,3 @@ format:
     toc: true
     include-in-header:
       - google-site-verification.html
-      - person-ld.html
