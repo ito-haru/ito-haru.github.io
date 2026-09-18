@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-description: "Projects by Haruto Ito (伊藤晴人): Econox, a JAX-based structural estimation library, and research on Dynamic Quantitative Spatial models."
+title: "Research"
+description: "Research by Haruto Ito (伊藤晴人): Dynamic Quantitative Spatial models."
 hide-description: true
 include-in-header:
   - person-ld.html
