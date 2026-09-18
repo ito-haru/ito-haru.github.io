@@ -25,6 +25,9 @@ jobs:
       - name: Render site
         run: quarto render
 
+      - name: Add CNAME
+        run: echo 'harutoito.com' > docs/CNAME
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs

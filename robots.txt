@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ito-haru.github.io/sitemap.xml
-Sitemap: https://ito-haru.github.io/ja/sitemap.xml
+Sitemap: https://harutoito.com/sitemap.xml
+Sitemap: https://harutoito.com/ja/sitemap.xml
