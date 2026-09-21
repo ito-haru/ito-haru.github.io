@@ -7,7 +7,13 @@ categories: [日本語]
 ---
 
 昨日，母校（兵庫県立大学附属中学校）の中学3年生が修学旅行で東京大学に来られるとのことで，
-私の学科である社会基盤学科がメインで使っている工学部1号館にお迎えし，「中学で学んだことと研究」というテーマにて少しお話をさせていただきました（[中学校の記事](https://dmzcms.hyogo-c.ed.jp/kendai-hs/NC3/blogs/blog_entries/view/117/67494ac757f878f585d6df1ef47a5942)）．
+私の学科である社会基盤学科がメインで使っている工学部1号館にお迎えし，「中学で学んだことと研究」というテーマにて少しお話をさせていただきました．
+
+なお，今回の訪問については，兵庫県立大学附属中学校HPと東京大学社会基盤学科HPでも，紹介されています
+（
+    [中学校の記事](https://dmzcms.hyogo-c.ed.jp/kendai-hs/NC3/blogs/blog_entries/view/117/67494ac757f878f585d6df1ef47a5942)，
+    [学科の記事](https://www.civil.t.u-tokyo.ac.jp/news_archive/5706/)
+）．
 
 ![](images/linear-explanation.jpeg){width=70% fig-align="center"}
 
