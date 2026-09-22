@@ -16,4 +16,4 @@ include-in-header:
 
 I develop methods to analyze transport policy using dynamic quantitative spatial models — population dynamics models grounded in quantitative spatial economics (QSE).
 
-In my graduation research, I built a framework extending the model of Caliendo et al. (2019) and estimated it structurally using 35 years of prefecture-level panel data. Using this model, I ran counterfactual simulations for the Chuo Shinkansen, a maglev line under construction whose top speed is 500km/h and which will connect Japan's three biggest cities, evaluating its benefits and population effects decomposed by time period and region.
+In my graduation research, I built a framework extending the model of Caliendo et al. (2019) and estimated it structurally using 35 years of prefecture-level data. Using this model, I ran counterfactual simulations for the Chuo Shinkansen, a maglev line under construction whose top speed is 500km/h and which will connect Japan's three biggest cities, evaluating its benefits and population effects decomposed by time period and region.

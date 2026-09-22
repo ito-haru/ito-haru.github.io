@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://harutoito.com/sitemap.xml
-Sitemap: https://harutoito.com/ja/sitemap.xml

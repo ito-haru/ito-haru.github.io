@@ -3,6 +3,8 @@ title: "研究"
 lang: ja
 description: "伊藤晴人（Haruto Ito）の研究について：数量空間経済学・交通"
 hide-description: true
+open-graph:
+  locale: ja_JP
 include-in-header:
   - person-ld.html
   - text: |
