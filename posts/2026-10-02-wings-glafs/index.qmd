@@ -1,0 +1,25 @@
+---
+title: "Accepted to WINGS-GLAFS / WINGS-GLAFSに合格しました"
+author: "Haruto Ito"
+date: "2026-10-02"
+categories: [English, 日本語]
+---
+
+::: {.panel-tabset}
+## English
+
+I have been accepted as a 2026 student of [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/) (World-leading Innovative Graduate Study Program in Gerontology: Global Leadership Initiative for Age-Friendly Society) at the University of Tokyo.
+The program is open to students from many fields, not only those who study older adults directly. Its aim is to help each student connect their own research to the challenges of an aging society.
+
+My research examines how high-speed rail, such as the Linear Chuo Shinkansen, reshapes population and welfare across regions in an aging, shrinking Japan.
+Through the program, I hope to extend this work to issues such as the restructuring of regional transport.
+
+## 日本語
+
+東京大学の[高齢社会総合研究国際卓越大学院（WINGS-GLAFS）](http://www.glafs.u-tokyo.ac.jp/)の2026年度プログラム履修生募集に合格しました．
+本プログラムは，高齢者を直接の研究対象とする人に限らず，自らの専門領域の研究を高齢社会の課題と接続することを目指す，分野横断型の大学院プログラムです．
+
+私はリニア中央新幹線のような高速鉄道整備が，人口減少・高齢化の進む日本で地域の人口分布や厚生をどう変えるかを研究しています．
+本プログラムでは，地方交通の再編といった問題へも研究を広げていきたいと考えています．
+
+:::
