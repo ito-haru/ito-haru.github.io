@@ -33,3 +33,12 @@
   color: #18bc9c;
   font-size: 0.85em;
 }
+
+/* solana テンプレート：スマホ・タブレット幅（写真が本文の上に来るとき）は写真を確実に中央へ */
+@media (max-width: 991.98px) {
+  .quarto-about-solana .about-entity .about-image {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
