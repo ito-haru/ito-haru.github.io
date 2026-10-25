@@ -5,6 +5,4 @@ cd "$(dirname "$0")"
 QUARTO=quarto
 command -v quarto >/dev/null 2>&1 || QUARTO=/Applications/quarto/bin/quarto
 
-"$QUARTO" render
-
-open docs/index.html
+"$QUARTO" preview --render all
