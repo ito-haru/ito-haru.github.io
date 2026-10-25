@@ -63,7 +63,7 @@ include-in-header:
 - Oct 2026 - Present: [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/) (World-leading Innovative Graduate Study Program in Gerontology: Global Leadership Initiative for Age-Friendly Society), The University of Tokyo
 - Apr 2026 - Present: The University of Tokyo, Graduate School of Engineering, Department of Civil Engineering
 - Apr 2024 - Mar 2026: [The University of Tokyo, Faculty of Engineering, Department of Civil Engineering](https://www.civil.t.u-tokyo.ac.jp/en/)
-- Apr 2022 - Mar 2024: The University of Tokyo, College of Arts and Sciences, Division of Science I
+- Apr 2022 - Mar 2024: The University of Tokyo, College of Arts and Sciences, Natural Sciences I
 - Jul 2019 - Mar 2021: [ROOT Program](https://gsc-root.org/)
 - Apr 2019 - Mar 2022: The High School of University of Hyogo
 - Apr 2016 - Mar 2019: The Junior High School of University of Hyogo
