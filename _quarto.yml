@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  post-render: scripts/fix-sitemap.ts
 
 lang: en
 
@@ -32,3 +33,4 @@ format:
     theme: flatly
     css: styles.css
     toc: true
+    canonical-url: true

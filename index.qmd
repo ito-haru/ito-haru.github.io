@@ -2,6 +2,7 @@
 title: "Haruto Ito"
 description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering, The University of Tokyo. Winner of the Dean's Award for Research for work on benefit evaluation of the Linear Chuo Shinkansen using a dynamic quantitative spatial model."
 hide-description: true
+canonical-url: https://harutoito.com/
 about:
   template: trestles
   image: images/profile.JPEG
@@ -21,7 +22,7 @@ include-in-header:
 ---
 
 ::: {.lang-switch}
-→ [日本語版](ja/index.html)
+→ [日本語版](ja/)
 :::
 
 Master's student in the Department of Civil Engineering, Graduate School of Engineering, the University of Tokyo, affiliated with the [Lab for Innovative Infrastructure Systems (LIIS, Fukuda Laboratory)](https://liis.t.u-tokyo.ac.jp/en/).
