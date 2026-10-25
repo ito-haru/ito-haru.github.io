@@ -1,0 +1,31 @@
+<%
+// 英語ページ用の発表リスト。データは data/presentations.yml
+// Quarto のテンプレートは lodash 形式（イコール付きタグはそのまま出力，ハイフン付きタグはHTMLエスケープして出力）
+const SELF = ["Haruto Ito", "伊藤晴人"];
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const ymd = (s) => String(s).slice(0, 10).split("-").map(Number);
+const fmtDate = (start, end) => {
+  const [y1, m1, d1] = ymd(start);
+  if (!end) return `${MON[m1 - 1]} ${d1}, ${y1}`;
+  const [y2, m2, d2] = ymd(end);
+  if (y1 === y2 && m1 === m2) return `${MON[m1 - 1]} ${d1}–${d2}, ${y1}`;
+  return `${MON[m1 - 1]} ${d1} – ${MON[m2 - 1]} ${d2}, ${y2}`;
+};
+const names = (list) => list.map((n) => (SELF.includes(n) ? `<strong>${esc(n)}</strong>` : esc(n))).join(", ");
+%>
+<ul class="pres-list">
+<% for (const item of items) {
+  const title = item.title_en || item.title;
+  const authors = item.authors_en || item.authors;
+  const event = item.event_en || item.event;
+  const venue = item.venue_en || item.venue;
+%>
+  <li <%= metadataAttrs(item) %>>
+    <span class="pres-date"><%- fmtDate(item.date, item.date_end) %></span>
+    <span class="pres-body">
+      <% if (authors) { %><%= names(authors) %>. <% } %>“<% if (item.url) { %><a href="<%= esc(item.url) %>"><%- title %></a><% } else { %><%- title %><% } %>”<% if (item.language === "ja") { %> (in Japanese)<% } %>. <em><%- event %></em><% if (venue) { %>, <%- venue %><% } %>.
+    </span>
+  </li>
+<% } %>
+</ul>

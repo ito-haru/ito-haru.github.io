@@ -1,0 +1,30 @@
+<%
+// 日本語ページ用の発表リスト。データは data/presentations.yml
+// Quarto のテンプレートは lodash 形式（イコール付きタグはそのまま出力，ハイフン付きタグはHTMLエスケープして出力）
+const SELF = ["Haruto Ito", "伊藤晴人"];
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const ymd = (s) => String(s).slice(0, 10).split("-").map(Number);
+const fmtDate = (start, end) => {
+  const [y1, m1, d1] = ymd(start);
+  if (!end) return `${y1}年${m1}月${d1}日`;
+  const [y2, m2, d2] = ymd(end);
+  if (y1 === y2 && m1 === m2) return `${y1}年${m1}月${d1}〜${d2}日`;
+  return `${y1}年${m1}月${d1}日〜${m2}月${d2}日`;
+};
+%>
+<ul class="pres-list">
+<% for (const item of items) {
+  const ja = item.language === "ja";
+  const comma = ja ? "，" : ", ";
+  const period = ja ? "．" : ".";
+  const sep = ja ? "：" : ": ";
+  const names = (item.authors || []).map((n) => (SELF.includes(n) ? `<strong>${esc(n)}</strong>` : esc(n))).join(comma);
+%>
+  <li <%= metadataAttrs(item) %>>
+    <span class="pres-date"><%- fmtDate(item.date, item.date_end) %></span>
+    <span class="pres-body">
+      <% if (names) { %><%= names %><%= sep %><% } %><% if (item.url) { %><a href="<%= esc(item.url) %>"><%- item.title %></a><% } else { %><%- item.title %><% } %><%= comma %><%- item.event %><% if (item.venue) { %><%= comma %><%- item.venue %><% } %><%= period %>
+    </span>
+  </li>
+<% } %>
+</ul>

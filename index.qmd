@@ -1,17 +1,36 @@
 ---
 title: "Haruto Ito"
-description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering, The University of Tokyo. Winner of the Dean's Award for Research for work on benefit evaluation of the Linear Chuo Shinkansen using a dynamic quantitative spatial model."
+description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering at the University of Tokyo, studying how transport infrastructure shapes population and well-being across regions in Japan."
 hide-description: true
+toc: false
+canonical-url: https://harutoito.com/
+aliases:
+  - research.html
 about:
   template: trestles
   image: images/profile.JPEG
   links:
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/ito-haru
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/haruto-ito/
+listing:
+  - id: presentations
+    contents: data/presentations.yml
+    template: _templates/presentations-en.ejs
+    sort: "date desc"
+    date-format: iso
+    include:
+      type: conference
+  - id: talks
+    contents: data/presentations.yml
+    template: _templates/presentations-en.ejs
+    sort: "date desc"
+    date-format: iso
+    include:
+      type: talk
 include-in-header:
   - person-ld.html
   - text: |
@@ -21,19 +40,42 @@ include-in-header:
 ---
 
 ::: {.lang-switch}
-→ [日本語版](ja/index.html)
+→ [日本語版](ja/)
 :::
 
-Master's student in the Department of Civil Engineering, Graduate School of Engineering, the University of Tokyo, affiliated with the [Lab for Innovative Infrastructure Systems (LIIS, Fukuda Laboratory)](https://liis.t.u-tokyo.ac.jp/en/).
-Researching Dynamic Models in Quantitative Spatial Economics (QSE) & Developer of [Econox](https://github.com/ito-haru/econox).
+Master's student in the [Department of Civil Engineering](https://www.civil.t.u-tokyo.ac.jp/en/), Graduate School of Engineering, the University of Tokyo, working in the [Lab for Innovative Infrastructure Systems (Fukuda Lab)](https://liis.t.u-tokyo.ac.jp/en/).
+Student of [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/), the University of Tokyo's cross-disciplinary graduate program on aging societies.
 
-## Achievements
+**Fields:** Transportation Economics, Urban and Regional Economics
+
+## Research
+
+Japan's population is shrinking and aging.
+In this setting, how do investments in and restructuring of transport infrastructure — from high-speed rail to regional railways — change where people choose to live and how well off each region is over the long run?
+
+To answer this question, I develop policy evaluation methods grounded in spatial economics that account for long-run population dynamics, such as migration that unfolds over decades.
+Going forward, I aim to extend these methods to capture age structure and finer geographic units, so that they can inform debates such as the future of regional railways.
+
+## Presentations
+
+::: {#presentations}
+:::
+
+## Other Talks
+
+::: {#talks}
+:::
+
+## Awards
+
 - **[Tanabe Award](https://utcivil.org/awards.html)** & **[Dean's Award for Research](https://www.t.u-tokyo.ac.jp/topics/tp2026-04-06-001)**, The University of Tokyo (March 2026) — for undergraduate thesis
 
-## Experience and Education
-- Apr 2026 - Present: The University of Tokyo, Graduate School of Engineering, Department of Civil Engineering
-- Jan 2025 - Present: [HENNGE K.K.](https://hennge.com/global/) Student Intern (Product Management Section)
-- Apr 2024 - Mar 2026: [The University of Tokyo, Faculty of Engineering, Department of Civil Engineering](https://www.civil.t.u-tokyo.ac.jp/en/)
-- Apr 2022 - Mar 2024: The University of Tokyo, College of Arts and Sciences, Division of Science I
-- Apr 2019 - Mar 2022: The High School of University of Hyogo
-- Apr 2016 - Mar 2019: The Junior High School of University of Hyogo
+## Education
+
+- Oct 2026 – Present: [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/) (World-leading Innovative Graduate Study Program in Gerontology), The University of Tokyo
+- Apr 2026 – Present: The University of Tokyo, Graduate School of Engineering, Department of Civil Engineering (Master's program)
+- Apr 2024 – Mar 2026: [The University of Tokyo, Faculty of Engineering, Department of Civil Engineering](https://www.civil.t.u-tokyo.ac.jp/en/)
+- Apr 2022 – Mar 2024: The University of Tokyo, College of Arts and Sciences, Natural Sciences I
+- Jul 2019 – Mar 2021: [ROOT Program](https://gsc-root.org/) (3rd cohort)
+- Apr 2019 – Mar 2022: The High School of University of Hyogo
+- Apr 2016 – Mar 2019: The Junior High School of University of Hyogo

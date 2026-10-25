@@ -1,21 +1,20 @@
 project:
   type: website
   output-dir: docs
+  post-render: scripts/fix-sitemap.ts
 
 lang: en
 
 website:
   title: "Haruto Ito"
   site-url: "https://harutoito.com"
-  description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering, The University of Tokyo. Winner of the Dean's Award for Research for work on benefit evaluation of the Linear Chuo Shinkansen using a dynamic quantitative spatial model."
+  description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering at the University of Tokyo, studying how transport infrastructure shapes population and well-being across regions in Japan."
   image: https://harutoito.com/images/profile.JPEG
   open-graph:
     locale: en_US
   twitter-card: true
   navbar:
     left:
-      - text: "Research"
-        href: research.qmd
       - text: "Blog"
         href: blog.qmd
     right:
@@ -32,3 +31,4 @@ format:
     theme: flatly
     css: styles.css
     toc: true
+    canonical-url: true

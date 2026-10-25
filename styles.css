@@ -15,3 +15,19 @@
   color: #18bc9c;
   border-bottom-color: #18bc9c;
 }
+
+/* 発表リスト（data/presentations.yml から生成） */
+.pres-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pres-list li {
+  margin-bottom: 1em;
+}
+
+.pres-date {
+  display: block;
+  color: #6c757d;
+  font-size: 0.9em;
+}

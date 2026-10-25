@@ -7,6 +7,17 @@
 
 英語・日本語ページを含む単一のQuartoプロジェクトを `quarto render` でビルドして `docs/index.html` を開く。
 
+## 発表・講演の追加
+
+`data/presentations.yml` にエントリを1つ足すだけでよい（書き方はファイル冒頭のコメントを参照）。
+Home の英語版（`index.qmd`）・日本語版（`ja/index.qmd`）の両方に、日付の新しい順で自動表示される。
+表示の書式は `_templates/presentations-en.ejs` / `presentations-ja.ejs` で決めている。
+
+## 正規URLとサイトマップ
+
+各ページには canonical タグが付く（`_quarto.yml` の `canonical-url: true`、トップは各 `index.qmd` で `/` と `/ja/` を指定）。
+ビルド後に `scripts/fix-sitemap.ts` がサイトマップの `…/index.html` を末尾スラッシュのURLに書き換え、canonical タグと一致させる。
+
 ## ブログ記事の追加
 
 ```
