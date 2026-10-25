@@ -1,0 +1,66 @@
+# 発表・講演の一覧（マスター）
+# Home の英語・日本語ページはこのファイルから自動で表示される。
+# 新しい発表は末尾にエントリを書き足す（ファイル内は古い順）。ページでは date で自動的に新しい順に並ぶ。
+# 会期の最終日（date_end，なければ date）が閲覧日以降のものには「Upcoming／予定」が自動で付く。
+#
+# 必須: date, type, title, event
+#   type: conference（学会・ワークショップでの発表）/ talk（その他の講演）
+# 任意:
+#   date_end   会期が複数日で発表日が未定のときの最終日
+#   language   発表言語が日本語なら ja（英語ページに「(in Japanese)」を付ける）
+#   authors    発表時の表記（本人の名前は自動で太字）
+#   *_en       英語ページ用の表記（なければ元の表記を使う）
+#   venue      会場
+#   url        資料や関連記事へのリンク
+
+- date: 2026-06-13
+  type: conference
+  language: ja
+  title: 動学的数量空間モデルの推定とインフラ政策の長期便益評価
+  title_en: Estimation of a Dynamic Quantitative Spatial Model and Long-Run Benefit Evaluation of Infrastructure Policy
+  authors: [伊藤晴人, 藤原啓示, 福田大輔]
+  authors_en: [Haruto Ito, Keishi Fujiwara, Daisuke Fukuda]
+  event: 第73回土木計画学研究発表会・春大会（特別論文セッション）
+  event_en: The 73rd JSCE Conference on Infrastructure Planning and Management (Spring), Special Paper Session
+  venue: 大同大学（名古屋市）
+  venue_en: Daido University, Nagoya, Japan
+
+- date: 2026-09-17
+  type: talk
+  language: ja
+  title: 中学で学んだことと研究
+  title_en: What I Learned in Junior High School, and My Research
+  event: 兵庫県立大学附属中学校 3年生の東京大学訪問
+  event_en: Visit of third-year students from the Junior High School of University of Hyogo to the University of Tokyo
+  url: /posts/2026-09-18/
+
+- date: 2026-11-10
+  type: conference
+  language: ja
+  title: 動学的数量空間モデル(D-QSM)の推定とインフラ政策の便益評価
+  title_en: Estimation of a Dynamic Quantitative Spatial Model (D-QSM) and Benefit Evaluation of Infrastructure Policy
+  authors: [伊藤晴人, 藤原啓示, 福田大輔]
+  authors_en: [Haruto Ito, Keishi Fujiwara, Daisuke Fukuda]
+  event: Regional Complexity Workshop (RCW)
+  venue: 国際高等研究所（京都府木津川市）
+  venue_en: International Institute for Advanced Studies, Kizugawa, Kyoto, Japan
+
+- date: 2026-12-02
+  type: conference
+  title: Dynamic Welfare Analysis of High-speed Railway Network Development in Japan
+  authors: [Haruto Ito, Keishi Fujiwara, Daisuke Fukuda]
+  event: The 29th Pacific Conference of the RSAI
+  venue: RMIT University, Melbourne, Australia
+
+- date: 2026-12-12
+  date_end: 2026-12-13
+  type: conference
+  language: ja
+  title: 動学的数量空間モデルの推定とインフラ政策の長期便益評価
+  title_en: Estimation of a Dynamic Quantitative Spatial Model and Long-Run Benefit Evaluation of Infrastructure Policy
+  authors: [伊藤晴人, 藤原啓示, 福田大輔]
+  authors_en: [Haruto Ito, Keishi Fujiwara, Daisuke Fukuda]
+  event: 第40回応用地域学会研究発表大会（Early Birdセッション）
+  event_en: The 40th Annual Meeting of the Applied Regional Science Conference (ARSC), Early Bird Session
+  venue: 高知工科大学（高知市）
+  venue_en: Kochi University of Technology, Kochi, Japan

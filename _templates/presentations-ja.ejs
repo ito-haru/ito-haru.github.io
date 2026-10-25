@@ -1,0 +1,46 @@
+<%
+// 日本語ページ用の発表リスト。データは data/presentations.yml
+// Quarto のテンプレートは lodash 形式（イコール付きタグはそのまま出力，ハイフン付きタグはHTMLエスケープして出力）
+// 注意：この中ではバッククォートの文字列中の「ドル記号＋波かっこ」が使えない（lodash が置換してしまう）
+const SELF = ["Haruto Ito", "伊藤晴人"];
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const iso = (s) => String(s).slice(0, 10);
+const ymd = (s) => iso(s).split("-").map(Number);
+const fmtDate = (start, end) => {
+  const [y1, m1, d1] = ymd(start);
+  if (!end) return y1 + "年" + m1 + "月" + d1 + "日";
+  const [y2, m2, d2] = ymd(end);
+  if (y1 === y2 && m1 === m2) return y1 + "年" + m1 + "月" + d1 + "〜" + d2 + "日";
+  return y1 + "年" + m1 + "月" + d1 + "日〜" + m2 + "月" + d2 + "日";
+};
+// 本人の名前は太字
+const names = (list, comma) => list.map((n) => (SELF.includes(n) ? "<strong>" + esc(n) + "</strong>" : esc(n))).join(comma);
+%>
+<ul class="pres-list">
+<% for (const item of items) {
+  const ja = item.language === "ja";
+  const comma = ja ? "，" : ", ";
+  const period = ja ? "．" : ".";
+  const sep = ja ? "：" : ": ";
+%>
+  <li <%= metadataAttrs(item) %> data-end="<%- iso(item.date_end || item.date) %>">
+    <span class="pres-date"><%- fmtDate(item.date, item.date_end) %><span class="pres-upcoming" hidden>予定</span></span>
+    <span class="pres-body">
+      <% if (item.authors) { %><%= names(item.authors, comma) %><%= sep %><% } %><% if (item.url) { %><a href="<%= esc(item.url) %>"><%- item.title %></a><% } else { %><%- item.title %><% } %><%= comma %><%- item.event %><% if (item.venue) { %><%= comma %><%- item.venue %><% } %><%= period %>
+    </span>
+  </li>
+<% } %>
+</ul>
+<script>
+// 会期の最終日が今日以降の発表に「予定」を表示する（閲覧時の日付で判定）
+(function () {
+  var d = new Date();
+  var today = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+  document.querySelectorAll(".pres-list li[data-end]").forEach(function (li) {
+    if (Number(li.dataset.end.replace(/-/g, "")) >= today) {
+      var badge = li.querySelector(".pres-upcoming");
+      if (badge) badge.hidden = false;
+    }
+  });
+})();
+</script>

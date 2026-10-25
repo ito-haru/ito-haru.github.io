@@ -7,6 +7,21 @@ page-layout: full
 canonical-url: https://harutoito.com/
 aliases:
   - research.html
+listing:
+  - id: presentations
+    contents: data/presentations.yml
+    template: _templates/presentations-en.ejs
+    sort: "date desc"
+    date-format: iso
+    include:
+      type: conference
+  - id: talks
+    contents: data/presentations.yml
+    template: _templates/presentations-en.ejs
+    sort: "date desc"
+    date-format: iso
+    include:
+      type: talk
 about:
   template: solana
   image: images/profile.JPEG
@@ -31,7 +46,17 @@ include-in-header:
 - Long-run effects of high-speed rail on interregional migration and welfare
 - Benefit evaluation of transport infrastructure using dynamic spatial economic models
 
-## Achievements
+## Presentations
+
+::: {#presentations}
+:::
+
+## Other Talks
+
+::: {#talks}
+:::
+
+## Awards
 - **[Tanabe Award](https://utcivil.org/awards.html)** & **[Dean's Award for Research](https://www.t.u-tokyo.ac.jp/topics/tp2026-04-06-001)**, The University of Tokyo (March 2026) — for undergraduate thesis
 
 ## Education

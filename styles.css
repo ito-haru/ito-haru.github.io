@@ -7,3 +7,29 @@
 .quarto-about-solana .about-contents {
   text-align: left;
 }
+
+/* 発表リスト（data/presentations.yml から生成）：日付を小さく上に，本文をその下に */
+.pres-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pres-list li {
+  margin-bottom: 1em;
+}
+
+.pres-date {
+  display: block;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+/* 今後の発表の「Upcoming／予定」ラベル */
+.pres-upcoming {
+  margin-left: 0.6em;
+  padding: 0.05em 0.5em;
+  border: 1px solid #18bc9c;
+  border-radius: 0.6em;
+  color: #18bc9c;
+  font-size: 0.85em;
+}
