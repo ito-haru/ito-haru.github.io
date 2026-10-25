@@ -1,18 +1,15 @@
 ---
 title: "Haruto Ito"
-description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering, The University of Tokyo. Winner of the Dean's Award for Research for work on benefit evaluation of the Linear Chuo Shinkansen using a dynamic quantitative spatial model."
+description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering at the University of Tokyo. Research interests: transportation economics, spatial economics and welfare analysis."
 hide-description: true
+toc: false
+page-layout: full
 canonical-url: https://harutoito.com/
+aliases:
+  - research.html
 about:
-  template: trestles
+  template: solana
   image: images/profile.JPEG
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/ito-haru
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/haruto-ito/
 include-in-header:
   - person-ld.html
   - text: |
@@ -21,16 +18,18 @@ include-in-header:
       <link rel="alternate" hreflang="x-default" href="https://harutoito.com/" />
 ---
 
-::: {.lang-switch}
-→ [日本語版](ja/)
-:::
-
 | Master's Student, Department of Civil Engineering, Graduate School of Engineering, The University of Tokyo
 | [Lab for Innovative Infrastructure Systems (LIIS, Fukuda Laboratory)](https://liis.t.u-tokyo.ac.jp/en/)
 | Student, [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/)
 
 **Research Interests:** Transportation Economics, Spatial Economics, Welfare Analysis\
 **Memberships:** Japan Society of Civil Engineers (JSCE), Applied Regional Science Conference (ARSC)
+
+## Research
+
+- Restructuring of transport networks in aging and depopulating regions
+- Long-run effects of high-speed rail on interregional migration and welfare
+- Benefit evaluation of transport infrastructure using dynamic spatial economic models
 
 ## Achievements
 - **[Tanabe Award](https://utcivil.org/awards.html)** & **[Dean's Award for Research](https://www.t.u-tokyo.ac.jp/topics/tp2026-04-06-001)**, The University of Tokyo (March 2026) — for undergraduate thesis
