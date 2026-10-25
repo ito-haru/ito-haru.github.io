@@ -25,16 +25,21 @@ include-in-header:
 → [日本語版](ja/)
 :::
 
-Master's student in the Department of Civil Engineering, Graduate School of Engineering, the University of Tokyo, affiliated with the [Lab for Innovative Infrastructure Systems (LIIS, Fukuda Laboratory)](https://liis.t.u-tokyo.ac.jp/en/).
-Researching Dynamic Models in Quantitative Spatial Economics (QSE) & Developer of [Econox](https://github.com/ito-haru/econox).
+| Master's Student, Department of Civil Engineering, Graduate School of Engineering, The University of Tokyo
+| [Lab for Innovative Infrastructure Systems (LIIS, Fukuda Laboratory)](https://liis.t.u-tokyo.ac.jp/en/)
+| Student, [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/)
+
+**Research Interests:** Transportation Economics, Spatial Economics, Welfare Analysis\
+**Memberships:** Japan Society of Civil Engineers (JSCE), Applied Regional Science Conference (ARSC)
 
 ## Achievements
 - **[Tanabe Award](https://utcivil.org/awards.html)** & **[Dean's Award for Research](https://www.t.u-tokyo.ac.jp/topics/tp2026-04-06-001)**, The University of Tokyo (March 2026) — for undergraduate thesis
 
-## Experience and Education
+## Education
+- Oct 2026 - Present: [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/) (World-leading Innovative Graduate Study Program in Gerontology: Global Leadership Initiative for Age-Friendly Society), The University of Tokyo
 - Apr 2026 - Present: The University of Tokyo, Graduate School of Engineering, Department of Civil Engineering
-- Jan 2025 - Present: [HENNGE K.K.](https://hennge.com/global/) Student Intern (Product Management Section)
 - Apr 2024 - Mar 2026: [The University of Tokyo, Faculty of Engineering, Department of Civil Engineering](https://www.civil.t.u-tokyo.ac.jp/en/)
 - Apr 2022 - Mar 2024: The University of Tokyo, College of Arts and Sciences, Division of Science I
+- Jul 2019 - Mar 2021: [ROOT Program](https://gsc-root.org/)
 - Apr 2019 - Mar 2022: The High School of University of Hyogo
 - Apr 2016 - Mar 2019: The Junior High School of University of Hyogo

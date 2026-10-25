@@ -15,3 +15,8 @@
   color: #18bc9c;
   border-bottom-color: #18bc9c;
 }
+
+/* Home 冒頭の所属（行ブロック）と次の行の間をあける */
+.line-block {
+  margin-bottom: 1rem;
+}
