@@ -1,6 +1,6 @@
 ---
 title: "Haruto Ito"
-description: "Haruto Ito (伊藤晴人) — Master's student in Civil Engineering at the University of Tokyo. Research interests: transportation economics, spatial economics and welfare analysis."
+description: "Master's student in Civil Engineering at the University of Tokyo. Research interests: transportation and spatial economics, high-speed rail, population dynamics."
 hide-description: true
 toc: false
 page-layout: full
@@ -37,14 +37,8 @@ include-in-header:
 | [Lab for Innovative Infrastructure Systems (LIIS, Fukuda Laboratory)](https://liis.t.u-tokyo.ac.jp/en/)
 | Student, [WINGS-GLAFS](http://www.glafs.u-tokyo.ac.jp/)
 
-**Research Interests:** Transportation Economics, Spatial Economics, Welfare Analysis\
+**Research Interests:** Transportation Economics, Spatial Economics, Welfare Analysis, High-Speed Rail, Transportation Network Restructuring, Population Dynamics\
 **Memberships:** Japan Society of Civil Engineers (JSCE), Applied Regional Science Conference (ARSC)
-
-## Research
-
-- Restructuring of transport networks in aging and depopulating regions
-- Long-run effects of high-speed rail on interregional migration and welfare
-- Benefit evaluation of transport infrastructure using dynamic spatial economic models
 
 ## Presentations
 
